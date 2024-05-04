@@ -3,17 +3,19 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: RGB(111, 201, 196)   ;
+  --secondary-color:  RGB(240, 237, 229)  ;
+  --accent1-color: RGB(249, 214, 172) ;
+  --accent2-color: RGB(213, 236, 194)
+  ;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Roboto", Helvetica, sans-serif, 'IM Fell French Canon';
+  --paragraph-font: Lato, Helvetica, sans-serif, 'Roboto';
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #396E94;  /* headlines on a white background */ 
@@ -27,7 +29,7 @@ Fonts are separated by a & */
   --nav-hover-background-color: #396E94;
 }
 
-
+/* https://coolors.co/a3ca86-d4e09b-f6f4d2-f19c79-a44a3f */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
