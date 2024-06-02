@@ -37,6 +37,11 @@ body {
     padding: 0;
 }
 
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 header {
     background-color: #1E90FF;
     font-family: var(--paragraph-font);
@@ -53,11 +58,6 @@ nav a {
 nav a:hover { 
     background-color: black;
     color: #87CEFA;
-}
-
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
 }
 
 #hero-msg h1 { 
