@@ -13,7 +13,7 @@ Fonts are separated by a | */
   --headline-color-on-white: #1c3d5a;  /* headlines on a white background */ 
   --headline-color-on-color: #ffffff; /* headlines on a colored background */ 
   --paragraph-color-on-white: #708090; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #ffffff; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
 
   /* Background Colors */
   --paragraph-background-color: #a3c6d6;
