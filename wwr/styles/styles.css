@@ -1,8 +1,9 @@
 /* Fonts */
 /* Primary Font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Lato:wght@300;400;700&display=swap');
 /* Secondary Font */
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
 
 :root {
     /* change the values below to your colors from your palette */
@@ -13,10 +14,10 @@
     --accent3-color: white;
     --accent4-color: black;
   
-    /* change the values below to your chosen font(s) */
-    --heading-font: "Roboto", Helvetica, sans-serif, 'IM Fell French Canon';
-    --paragraph-font: Arial, Helvetica, sans-serif, 'Roboto';
-  
+  /* Fonts */
+    --heading-font: 'Dancing Script', 'IM Fell French Canon', 'Roboto', Helvetica, sans-serif;
+    --paragraph-font: 'Lato', 'IM Fell French Canon', Arial, Helvetica, sans-serif;
+
     /* these colors below should be chosen from among your palette colors above */
     --headline-color-on-white: #396E94;  /* headlines on a white background */ 
     --headline-color-on-color: white; /* headlines on a colored background */ 
