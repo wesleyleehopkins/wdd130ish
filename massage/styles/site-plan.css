@@ -18,6 +18,10 @@ Fonts are separated by a | */
   /* Background Colors */
   --paragraph-background-color: #a3c6d6;
 
+  /* Fonts */
+  --heading-font: 'Dancing Script', serif, sans-serif;
+  --paragraph-font: Lato, serif, sans-serif;
+
   /* Navigation Colors */
   --nav-link-color: #ffffff;
   --nav-background-color: #1c3d5a;
