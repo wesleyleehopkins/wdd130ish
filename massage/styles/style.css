@@ -130,6 +130,103 @@ nav {
 .open img {
 	max-width: 100%;
 }
+#hero-box, .review {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+p {
+    font-size: 1.5rem;
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-color);
+    background-color: var(--accent1);
+    padding: 1rem;
+    margin: 0;
+}
+#hero-img {
+    width: 100%;
+}
+#content h1 , h4, .button-box {
+    font-size: 1.5rem;
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-color);
+    background-color: var(--accent1);
+    padding: 1rem;
+    margin: 0;
+}
+
+#open {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    margin: 0;
+    padding: 1rem;
+}
+#reviews {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#reviews h2 {
+    margin-bottom: 20px;
+}
+
+.review_1, .review_2, .review_3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.review_1 img, .review_2 img, .review_3 img {
+    width: 80px;  /* Adjusted width */
+    height: 80px;  /* Adjusted height */
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.review_1 p, .review_2 p, .review_3 p {
+    text-align: left;
+    margin: 0;
+    flex: 1;
+}
+footer {
+    background-color: var(--primary-background);
+    color: black;
+    font-family: var(--paragraph-font);
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #hero-box img, #open img, .review img {
+        width: 100%;
+        height: auto;
+    }
+    
+    #open img {
+        height: auto;
+        max-width: 100%;
+    }
+    
+    .review img {
+        height: auto;
+        max-width: 100%;
+    }
+}
 
 @media screen and (min-width: 900px) {#menu{
     display: none;
@@ -156,5 +253,11 @@ nav{
 .open li:first-of-type {
     margin-top: 0px;
 }
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
 
 }
