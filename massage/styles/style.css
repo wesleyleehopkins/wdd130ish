@@ -58,7 +58,10 @@ nav {
     grid-column: 2;
     grid-row: 1/3;
 }
-
+#logo_link {
+    height: 33%;
+    width: 33%;
+}
 .navigation li a:hover,
 .navigation li button:hover,
 #active:hover,
@@ -212,6 +215,7 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+
 
 
 
