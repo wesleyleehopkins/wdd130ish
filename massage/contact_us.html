@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wellnessmassage</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/medium_styles.css">
+    <link rel="stylesheet" href="styles/large_styles.css">
     <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/slideshow.js" defer></script>
+
 </head>
 
 <body>
@@ -20,7 +24,6 @@
                 <li><a href="index.html">Home</a></li>
                 <li> <a href="services.html">Services</a></li>
                 <li><a id="active" href="contact_us.html">Contact Us</a></li>
-                <li><a href="site-plan.html">Site Plan</a></li>
             </ul>
         </nav>
 
@@ -61,25 +64,97 @@
                 feel better. We offer Swedish, Deep Tissue, Hot Stone, and Prenatal massages. We also offer a variety of
                 add-ons to help you get the most out of your massage..</p>
         </div>
+        <!-- Container for the image gallery -->
+        <div class="container">
 
+            <!-- Container for the image gallery -->
+            <div class="container">
+                <!-- Full-width images with number text -->
+                <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="images/calf_massage.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="images/compressions_massage.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="images/deep_tissue_massage.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="images/foot_massage.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="images/hacking_massage.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="images/neck_massage.jpg" style="width:100%">
+                </div>
 
-        <footer>
-            <p> Wellness Massage &copy; 2024 - Wesley Hopkins</p>
-            <p><a href="site-plan.html">Site Plan</a></p>
-            <p><a href="contact_us.html"></a>Contact Us</p>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="fb icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="twitter icon">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="instagram icon">
-                </a>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!-- Image text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <!-- Thumbnail images -->
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="images/calf_massage.jpg" style="width:100%"
+                            onclick="currentSlide(1)" alt="Calf Massage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/compressions_massage.jpg" style="width:100%"
+                            onclick="currentSlide(2)" alt="Compressions Massage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/hacking_massage.jpg" style="width:100%"
+                            onclick="currentSlide(3)" alt="Hacking Massage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/massage_oil.jpg" style="width:100%"
+                            onclick="currentSlide(4)" alt="Massage Oils">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/foot_massage.jpg" style="width:100%"
+                            onclick="currentSlide(5)" alt="Foot Massage">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/deep_tissue_massage.jpg" style="width:100%"
+                            onclick="currentSlide(6)" alt="Deep Tissue Massage">
+                    </div>
+                </div>
             </div>
-        </footer>
-    </div>
+            <footer>
+                <div id='foot_note'>
+                    <p> Wellness Massage &copy; 2024 - Wesley Hopkins</p>
+                </div>
+                <div id="contact_info">
+                    <p><a href="site-plan.html">Site Plan</a></p>
+                    <div class="button-box">
+                        <a id='contact_us' href="contact_us.html">Contact Us</a>
+                    </div>
+                </div>
+                <div id="socials">
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="images/facebook.png" alt="fb icon">
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="images/twitter.png" alt="twitter icon">
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="images/instagram.png" alt="instagram icon">
+                    </a>
+                </div>
+            </footer>
+        </div>
 </body>
 
 </html>

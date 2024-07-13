@@ -158,6 +158,10 @@ p {
 #hero-img {
     width: 100%;
 }
+.button-box a {
+  color: white;
+  text-decoration: none;
+}
 #content h1 , h4, .button-box {
     font-size: 1.5rem;
     font-family: var(--paragraph-font);
@@ -207,71 +211,21 @@ p {
     flex: 1;
 }
 footer {
-    background-color: var(--primary-background);
-    color: black;
+    background-color: var(--accent1);
+    color: white;
     font-family: var(--paragraph-font);
     margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  }
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+#socials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
 }
 
 
-
-
-@media only screen and (max-width: 600px) {
-    #hero-box img, #open img, .review img {
-        width: 100%;
-        height: auto;
-    }
-    
-    #open img {
-        height: auto;
-        max-width: 100%;
-    }
-    
-    .review img {
-        height: auto;
-        max-width: 100%;
-    }
-}
-
-@media screen and (min-width: 900px) {#menu{
-    display: none;
-}
-
-nav{
-    grid-column: 3;
-}
-
-.navigation {
-    display: flex;
-    flex-direction: row;
-}
-
-.navigation li {
-    display: block;
-    flex: 1 1 100%;
-}
-
-.navigation li button {
-    margin-top: 0;
-    margin-left: 15px;
-}
-.open li:first-of-type {
-    margin-top: 0px;
-}
-body {
-    background-color: var(--primary-background);
-}
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
- 
-    padding: 1rem;
-}
-
-
-
-
-}
